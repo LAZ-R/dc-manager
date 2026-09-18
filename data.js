@@ -17,6 +17,13 @@ export const SPECS_LINKS = [
     url: 'https://docs.google.com/document/d/1Z6EbBW5np7JPP8euVrDnzlnt3XMdscL6mqsrLm5pdo0/edit?usp=drive_link',
     img_src: googleDocIconUrl,
   },
+  {
+    id: 'money',
+    label: 'Modèle économique',
+    desc: 'La discussion sur la stratégie de monétisation du jeu',
+    url: 'https://docs.google.com/document/d/19Ejvo8TxeDQqZVYBUL2zmZ4cg2vP4ZmPQ0nDkaLZWrk/edit?usp=drive_link',
+    img_src: googleDocIconUrl,
+  },
 ];
 
 export const TECH_LINKS = [

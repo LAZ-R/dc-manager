@@ -245,7 +245,7 @@ a, button {
 }
 
 /* Tablet ----------- */
-@media (min-width : 767px) and (max-width : 1279px) {
+@media (min-width : 869px) and (max-width : 1279px) {
   :root { --horizontal-padding: 2rem; --aside-width: 12rem; }
   aside { display: block; }
   .links-container { --cards-count: 2; }
