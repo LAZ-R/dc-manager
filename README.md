@@ -1,5 +1,6 @@
 # dc-manager
 
+v 0.1.4 - fix css scroll
 v 0.1.3 - fix css scroll
 v 0.1.2 - ajout data
 v 0.1.1 - pas de aside en mobile
