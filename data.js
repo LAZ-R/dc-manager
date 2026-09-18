@@ -1,0 +1,106 @@
+const googleDocIconUrl = 'https://upload.wikimedia.org/wikipedia/commons/1/18/Google_Docs_icon_%282026%29.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original';
+const folderIconUrl = 'https://icons.iconarchive.com/icons/custom-icon-design/flatastic-1/512/folder-icon.png';
+
+
+export const SPECS_LINKS = [
+  {
+    id: 'func_specs',
+    label: 'Specs fonctionnelles',
+    desc: 'Les spécifications fonctionnelles du projet',
+    url: 'https://docs.google.com/document/d/1dlrODNJ8jxQJ11ijxTPlnFzdruGJnWNov9ZlS35uBLc/edit?usp=drive_link',
+    img_src: googleDocIconUrl,
+  },
+  {
+    id: 'classes',
+    label: 'CLASSES',
+    desc: 'Les spécifications des classes jouables',
+    url: 'https://docs.google.com/document/d/1Z6EbBW5np7JPP8euVrDnzlnt3XMdscL6mqsrLm5pdo0/edit?usp=drive_link',
+    img_src: googleDocIconUrl,
+  },
+];
+
+export const TECH_LINKS = [
+  {
+    id: 'func_specs',
+    label: 'Specs techniques',
+    desc: 'Les spécifications techniques du projet',
+    url: 'https://docs.google.com/document/d/1dlrODNJ8jxQJ11ijxTPlnFzdruGJnWNov9ZlS35uBLc/edit?usp=drive_link',
+    img_src: googleDocIconUrl,
+  },
+];
+
+export const ARTBOOK_CLASSES_FOLDERS = [
+  {
+    id: 'magic',
+    label: 'Magicien',
+    desc: '',
+    url: 'https://drive.google.com/drive/folders/1CmM27j72oQKk8kjXLpOYt79_qBwd84tS?usp=drive_link',
+    img_src: folderIconUrl,
+    filter: 'grayscale(.2) hue-rotate(130deg) brightness(.8)',
+  },
+  {
+    id: 'scargol',
+    label: 'Scargol',
+    desc: '',
+    url: 'https://drive.google.com/drive/folders/1cFOyVg71oy3cUNhZRcpytiGSaEP-CWai?usp=drive_link',
+    img_src: folderIconUrl,
+    filter: 'grayscale(0) hue-rotate(200deg) saturate(1.5) brightness(.8)',
+  },
+  {
+    id: 'ranger',
+    label: 'Ranger',
+    desc: '',
+    url: 'https://drive.google.com/drive/folders/1ZZD5Ds2YY4BSX10TnkLAz74JFWukycNA?usp=drive_link',
+    img_src: folderIconUrl,
+    filter: 'grayscale(.45) hue-rotate(-10deg)',
+  },
+  {
+    id: 'archer',
+    label: 'Archer',
+    desc: '',
+    url: 'https://drive.google.com/drive/folders/1rkMJERIsU25QEtv2ZK4D2KpiQjrX9Uj5?usp=drive_link',
+    img_src: folderIconUrl,
+    filter: 'grayscale(0) hue-rotate(-60deg) brightness(.9) saturate(1.7)',
+  },
+];
+
+export const ARTBOOK_MOBS_FOLDERS = [
+  {
+    id: 'mobs',
+    label: 'Mobs',
+    desc: 'Les ennemis de base du jeu',
+    url: 'https://drive.google.com/drive/folders/1JjhC-yV-3fsIoUlG2BKe1QGJMJe6LBV0?usp=drive_link',
+    img_src: folderIconUrl,
+  },
+  {
+    id: 'boss',
+    label: 'Boss',
+    desc: 'Les gardiens de chaque étage',
+    url: 'https://drive.google.com/drive/folders/1DooSgGhEwObQV0c0Wne4yAoBw_7OvALe?usp=drive_link',
+    img_src: folderIconUrl,
+  },
+];
+
+export const ARTBOOK_DECORS_FOLDERS = [
+  {
+    id: 'env',
+    label: 'Environnement',
+    desc: 'Le monde en dehors du donjon',
+    url: 'https://drive.google.com/drive/folders/12Fxu6vKLvUKjEzFrmRsJixLQi57CZSs8?usp=drive_link',
+    img_src: folderIconUrl,
+  },
+  {
+    id: 'portal',
+    label: 'Portail',
+    desc: 'Le portail vers le donjon',
+    url: 'https://drive.google.com/drive/folders/1lwHJGbimZ-7LkEiHNrqhcoOklGeTclBO?usp=drive_link',
+    img_src: folderIconUrl,
+  },
+  {
+    id: 'dungeon',
+    label: 'Donjon',
+    desc: 'L\'intérieur du donjon',
+    url: 'https://drive.google.com/drive/folders/1tKOZ4j8cwB5POqBGoB2Dr1qzVpS8U2iG?usp=drive_link',
+    img_src: folderIconUrl,
+  },
+];
