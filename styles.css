@@ -155,7 +155,7 @@ main {
   align-items: flex-start;
   padding: 1rem var(--horizontal-padding);
   min-width: var(--width); width: var(--width); max-width: var(--width);
-  min-height: 100svh; height: 100svh; max-height: 100svh;
+  min-height: 100dvh; height: 100dvh; max-height: 100dvh;
   overflow-x: hidden;
   overflow-y: scroll;
   scroll-behavior: smooth;
