@@ -46,28 +46,28 @@ hr {
   border-color: hsla(0, 0%, 100%, .5); 
 }
 
-body, main {
-  position: relative;
-  padding: 0;
-  margin: 0;
-
-  &::-webkit-scrollbar {
-    display: none;
-  }
+html::-webkit-scrollbar, 
+body::-webkit-scrollbar, 
+main::-webkit-scrollbar {
+  display: none;
 }
 
 html {
   background: linear-gradient(45deg, #480048 0%, #c04848 100%);
+  background-repeat: no-repeat;
 }
 
-body {
+html, body {
+  position: relative;
+  min-width: 100svw; width: 100svw; max-width: 100svw;
+  min-height: 100svh; height: 100svh; max-height: 100svh;
+  padding: 0;
+  margin: 0;
+  
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  min-width: 100svw; width: 100svw; max-width: 100svw;
-  min-height: 100svh; height: 100svh; max-height: 100svh;
-  background-repeat: no-repeat;
   overflow: hidden;
 }
 
@@ -152,6 +152,8 @@ aside {
 
 main {
   --width: calc(100svw - var(--aside-width));
+  position: relative;
+  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

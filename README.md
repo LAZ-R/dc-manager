@@ -1,5 +1,6 @@
 # dc-manager
 
+v 0.1.7 - fix css scroll - html rules
 v 0.1.6 - fix css scroll - html bg
 v 0.1.5 - fix css scroll - main dvh
 v 0.1.4 - fix css scroll - body dvh
