@@ -138,8 +138,8 @@ document.getElementById('passwordInput').addEventListener('input', async (event)
 
 if (window.isSecureContext) {
   // Normal execution
-} /* else {
+} else {
   setupBody();
   setLinksContainerDom();
   setArtbookContainersDom();
-} */
+}

@@ -4,7 +4,7 @@
   --color--fg-default: #EEE;
   --border-radius--default: .75rem;
   --horizontal-padding: 1rem;
-  --aside-width: 12rem/* 8rem */;
+  --aside-width: 0px;
   font-size: 16px;
   color: var(--color--fg-default);
 }
@@ -110,6 +110,7 @@ body {
 }
 
 aside {
+  display: none;
   min-width: var(--aside-width); width: var(--aside-width); max-width: var(--aside-width);
   background: linear-gradient(60deg,hsla(0, 0%, 100%, 0%) 0%, hsla(0, 0%, 100%, 10%) 100%);
   /* background-color: red; */
@@ -245,7 +246,8 @@ a, button {
 
 /* Tablet ----------- */
 @media (min-width : 767px) and (max-width : 1279px) {
-  :root { --horizontal-padding: 2rem }
+  :root { --horizontal-padding: 2rem; --aside-width: 12rem; }
+  aside { display: block; }
   .links-container { --cards-count: 2; }
   .links-container.classes { --cards-count: 2; }
   .links-container.mobs { --cards-count: 2; }
@@ -262,7 +264,8 @@ a, button {
 
 /* Laptop ----------- */
 @media (min-width: 1280px) and (max-width : 1919px)  {
-  :root { --horizontal-padding: 3rem }
+  :root { --horizontal-padding: 3rem; --aside-width: 12rem; }
+  aside { display: block; }
   .links-container { --cards-count: 3; }
   .links-container.classes { --cards-count: 4; }
   .links-container.mobs { --cards-count: 2; }
@@ -279,7 +282,8 @@ a, button {
 
 /* Desktop ----------- */
 @media (min-width: 1920px) {
-  :root { --horizontal-padding: 5rem }
+  :root { --horizontal-padding: 5rem; --aside-width: 12rem; }
+  aside { display: block; }
   .links-container { --cards-count: 4; }
   .links-container.classes { --cards-count: 4; }
   .links-container.mobs { --cards-count: 2; }
