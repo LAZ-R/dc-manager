@@ -31,7 +31,7 @@ export const TECH_LINKS = [
     id: 'func_specs',
     label: 'Specs techniques',
     desc: 'Les spécifications techniques du projet',
-    url: 'https://docs.google.com/document/d/1dlrODNJ8jxQJ11ijxTPlnFzdruGJnWNov9ZlS35uBLc/edit?usp=drive_link',
+    url: 'https://docs.google.com/document/d/1rDNGBTbnKeRddg6CqCoN-McJHoRdofX2aX0CKWMQrdU/edit?usp=drive_link',
     img_src: googleDocIconUrl,
   },
 ];
