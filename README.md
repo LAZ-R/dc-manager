@@ -1,5 +1,6 @@
 # dc-manager
 
+v 0.1.9 - ajout data
 v 0.1.8 - fix lien specs
 v 0.1.7 - fix css scroll - html rules
 v 0.1.6 - fix css scroll - html bg

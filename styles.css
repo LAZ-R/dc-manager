@@ -276,7 +276,7 @@ a, button {
   aside { display: block; }
   .links-container { --cards-count: 3; }
   .links-container.classes { --cards-count: 4; }
-  .links-container.mobs { --cards-count: 2; }
+  .links-container.mobs { --cards-count: 3; }
   .links-container.decors { --cards-count: 3; }
   .password-container { padding: 2rem 3rem; }
   .password-container input[type="password"] { 
@@ -294,7 +294,7 @@ a, button {
   aside { display: block; }
   .links-container { --cards-count: 4; }
   .links-container.classes { --cards-count: 4; }
-  .links-container.mobs { --cards-count: 2; }
+  .links-container.mobs { --cards-count: 3; }
   .links-container.decors { --cards-count: 3; }
   .password-container { padding: 3rem 4rem; }
   .password-container input[type="password"] {

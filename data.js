@@ -80,6 +80,13 @@ export const ARTBOOK_MOBS_FOLDERS = [
     img_src: folderIconUrl,
   },
   {
+    id: 'supermobs',
+    label: 'Super Mobs',
+    desc: 'Les ennemis versatiles du jeu',
+    url: 'https://drive.google.com/drive/folders/1Q0DiVF-c8VHlrSGtmNP2uHByxtGFK7FL?usp=drive_link',
+    img_src: folderIconUrl,
+  },
+  {
     id: 'boss',
     label: 'Boss',
     desc: 'Les gardiens de chaque étage',
