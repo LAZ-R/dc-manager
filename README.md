@@ -1,5 +1,6 @@
 # dc-manager
 
+v 0.1.11 - ajout data
 v 0.1.10 - ajout manifest et sw et icônes
 v 0.1.9  - ajout data
 v 0.1.8  - fix lien specs

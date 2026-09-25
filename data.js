@@ -1,6 +1,6 @@
 const googleDocIconUrl = 'https://upload.wikimedia.org/wikipedia/commons/1/18/Google_Docs_icon_%282026%29.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original';
 const folderIconUrl = 'https://icons.iconarchive.com/icons/custom-icon-design/flatastic-1/512/folder-icon.png';
-
+const successIconUrl = 'https://cdn-icons-png.flaticon.com/512/16853/16853146.png'
 
 export const SPECS_LINKS = [
   {
@@ -23,6 +23,13 @@ export const SPECS_LINKS = [
     desc: 'La discussion sur la stratégie de monétisation du jeu',
     url: 'https://docs.google.com/document/d/19Ejvo8TxeDQqZVYBUL2zmZ4cg2vP4ZmPQ0nDkaLZWrk/edit?usp=drive_link',
     img_src: googleDocIconUrl,
+  },
+  {
+    id: 'success',
+    label: 'Succès',
+    desc: 'La liste des succès à déverrouiller',
+    url: 'https://docs.google.com/spreadsheets/d/1_FwYn1dzEGE8uhiz4gBfwNu-6Eo8MF5yb7EYJ7YIr5o/edit?usp=drive_link',
+    img_src: successIconUrl,
   },
 ];
 
