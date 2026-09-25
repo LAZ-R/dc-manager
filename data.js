@@ -38,8 +38,8 @@ export const TECH_LINKS = [
 
 export const ARTBOOK_CLASSES_FOLDERS = [
   {
-    id: 'magic',
-    label: 'Magicien',
+    id: 'yuhl',
+    label: 'Yuhl',
     desc: '',
     url: 'https://drive.google.com/drive/folders/1CmM27j72oQKk8kjXLpOYt79_qBwd84tS?usp=drive_link',
     img_src: folderIconUrl,
@@ -62,8 +62,8 @@ export const ARTBOOK_CLASSES_FOLDERS = [
     filter: 'grayscale(.45) hue-rotate(-10deg)',
   },
   {
-    id: 'archer',
-    label: 'Archer',
+    id: 'vastari',
+    label: 'Vastari',
     desc: '',
     url: 'https://drive.google.com/drive/folders/1rkMJERIsU25QEtv2ZK4D2KpiQjrX9Uj5?usp=drive_link',
     img_src: folderIconUrl,
@@ -80,8 +80,8 @@ export const ARTBOOK_MOBS_FOLDERS = [
     img_src: folderIconUrl,
   },
   {
-    id: 'supermobs',
-    label: 'Super Mobs',
+    id: 'arpenteurs',
+    label: 'Arpenteurs',
     desc: 'Les ennemis versatiles du jeu',
     url: 'https://drive.google.com/drive/folders/1Q0DiVF-c8VHlrSGtmNP2uHByxtGFK7FL?usp=drive_link',
     img_src: folderIconUrl,
