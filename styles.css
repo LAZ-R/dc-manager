@@ -257,6 +257,8 @@ a, button {
   :root { --horizontal-padding: 2rem; --aside-width: 12rem; }
   aside { display: block; }
   .links-container { --cards-count: 2; }
+  .links-container.main-link { --cards-count: 1; }
+  .links-container.lore { --cards-count: 2; }
   .links-container.classes { --cards-count: 2; }
   .links-container.mobs { --cards-count: 2; }
   .links-container.decors { --cards-count: 2; }
@@ -275,6 +277,8 @@ a, button {
   :root { --horizontal-padding: 3rem; --aside-width: 12rem; }
   aside { display: block; }
   .links-container { --cards-count: 3; }
+  .links-container.main-link { --cards-count: 1; }
+  .links-container.lore { --cards-count: 2; }
   .links-container.classes { --cards-count: 4; }
   .links-container.mobs { --cards-count: 3; }
   .links-container.decors { --cards-count: 3; }
@@ -293,6 +297,8 @@ a, button {
   :root { --horizontal-padding: 5rem; --aside-width: 12rem; }
   aside { display: block; }
   .links-container { --cards-count: 4; }
+  .links-container.main-link { --cards-count: 1; }
+  .links-container.lore { --cards-count: 2; }
   .links-container.classes { --cards-count: 4; }
   .links-container.mobs { --cards-count: 3; }
   .links-container.decors { --cards-count: 3; }

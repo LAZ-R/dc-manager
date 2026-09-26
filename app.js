@@ -2,6 +2,8 @@ import {
   ARTBOOK_CLASSES_FOLDERS, 
   ARTBOOK_DECORS_FOLDERS, 
   ARTBOOK_MOBS_FOLDERS, 
+  LORE_LINKS, 
+  MAIN_FOLDER_LINK, 
   SPECS_LINKS, 
   TECH_LINKS 
 } from "./data.js";
@@ -47,6 +49,7 @@ function setupBody() {
           <ul>
             <li><a href="#decors">Spécifications</a></li>
             <li><a href="#decors">Technique</a></li>
+            <li><a href="#decors">Lore</a></li>
           </ul>
         </li>
         <li>
@@ -62,19 +65,29 @@ function setupBody() {
   </aside>
   <main id="main">
     <span class="main-title">DUNGEON CRAWLER MANAGER</span>
+    
     <h1>Liens utiles</h1>
+    <section class="links-container main-link">${getLinkDom(MAIN_FOLDER_LINK)}</section>
+    
     <h2>Spécifications</h2>
     <section id="linksSpecsContainer" class="links-container"></section>
+    
     <h2>Technique</h2>
     <section id="linksTechContainer" class="links-container"></section>
+
+    <h2>Lore</h2>
+    <section id="loreContainer" class="links-container lore"></section>
 
     <hr>
 
     <h1>Artbook</h1>
+    
     <h2>Classes</h2>
     <section id="artbookClassesContainer" class="links-container artbook-container classes"></section>
+    
     <h2>Mobs</h2>
     <section id="artbookMobsContainer" class="links-container artbook-container mobs"></section>
+    
     <h2 id="decors">Décors</h2>
     <section id="artbookDecorsContainer" class="links-container artbook-container decors"></section>
   </main>
@@ -103,11 +116,18 @@ function setLinksContainerDom() {
     str += getLinkDom(link);
   }
   document.getElementById('linksSpecsContainer').innerHTML = str;
+  
   str = '';
   for (let link of TECH_LINKS) {
     str += getLinkDom(link);
   }
   document.getElementById('linksTechContainer').innerHTML = str;
+
+  str = '';
+  for (let link of LORE_LINKS) {
+    str += getLinkDom(link);
+  }
+  document.getElementById('loreContainer').innerHTML = str;
 }
 
 function setArtbookContainersDom() {

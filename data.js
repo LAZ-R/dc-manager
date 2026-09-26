@@ -1,6 +1,32 @@
 const googleDocIconUrl = 'https://upload.wikimedia.org/wikipedia/commons/1/18/Google_Docs_icon_%282026%29.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original';
 const folderIconUrl = 'https://icons.iconarchive.com/icons/custom-icon-design/flatastic-1/512/folder-icon.png';
-const successIconUrl = 'https://cdn-icons-png.flaticon.com/512/16853/16853146.png'
+const successIconUrl = 'https://cdn-icons-png.flaticon.com/512/16853/16853146.png';
+
+export const MAIN_FOLDER_LINK = {
+  id: 'main_folder',
+  label: 'Dossier drive',
+  desc: 'Le dossier général du projet dans le drive (où vivent toutes les ressources ci-après)',
+  url: 'https://drive.google.com/drive/folders/1xE_drHk_MgfX525bV3cB1viUlc7FHhcT?usp=drive_link',
+  img_src: 'https://cdn-icons-png.flaticon.com/512/3448/3448561.png',
+  filter: 'grayscale(.2) hue-rotate(130deg) brightness(.8); transform: scale(1.4) translateY(5px)',
+}
+
+export const LORE_LINKS = [
+  {
+    id: 'world',
+    label: 'Monde hors du donjon',
+    desc: 'Le lore du monde l\'origine de l\'équipe',
+    url: 'https://docs.google.com/document/d/17Cj6tEsinUN6EFaCIbTiQV-7bC8j5TxQkCVwibPn1w0/edit?usp=drive_link',
+    img_src: googleDocIconUrl,
+  },
+  {
+    id: 'mythos',
+    label: 'Mythologie & Biomes du donjon',
+    desc: 'Les Divinités et leurs biomes associés, et le lore du donjon',
+    url: 'https://docs.google.com/document/d/1IaVq2_RilrTV5g513UyyY5XaaQeZFV0tYxGWUhVWu5s/edit?usp=drive_link',
+    img_src: googleDocIconUrl,
+  },
+];
 
 export const SPECS_LINKS = [
   {
